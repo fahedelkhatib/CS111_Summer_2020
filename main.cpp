@@ -157,10 +157,10 @@ int breakandDecrypt(int e, int n, int encmess){
 		cout << "decryption failed" << endl;
 	}
 	
-	cout << "\tdecrypting message proper" << endl;
-	cout << "encmess = " << m << endl;
-	cout << "d = " << d << endl;
-	cout << "n = " << n << endl;
+	//cout << "\tdecrypting message proper" << endl;
+	//cout << "encmess = " << m << endl;
+	//cout << "d = " << d << endl;
+	//cout << "n = " << n << endl;
 	
 	result = 1;
 	for(int i = 1; i <= d; ++i){
@@ -169,8 +169,6 @@ int breakandDecrypt(int e, int n, int encmess){
 	       	//cout << result << endl;	
 		
 	}
-	cout << "----------" << endl;
-
 	
 	cout << "\tdecrypted message: " << result << endl;
 	cout << "\tencrypted message: " << m << endl << endl;	

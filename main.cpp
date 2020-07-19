@@ -31,10 +31,10 @@ int main(){
 	}
 	cout << endl;
 	
-	p = 7;
-	q = 11;
+	p = 3;
+	q = 5;
 	int n = p * q;
-	e = 13;
+	e = 7;
 
 	encryptMessage(n, e);
 
